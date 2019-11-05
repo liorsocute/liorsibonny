@@ -1,0 +1,18 @@
+package homework;
+
+public class First_time {
+
+	public static void main(String[] args) {
+
+		int x = (int) Math.random() * (10 - 1) + 1;
+		int y = (int) Math.random() * (10 - 1) + 1;
+
+		if (y > x) {
+			System.out.println("growing");
+		} else {
+			System.out.println("thats it");
+		}
+
+	}
+
+}

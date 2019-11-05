@@ -1,0 +1,24 @@
+package operators_and_flows;
+
+public class Classjob {
+	public static void main(String[] args) {
+		int age = (int) Math.random() * (18-5) +1;
+		String name = "avi";
+		
+		if (age == 18) {
+			if (name.equals("avi")) {
+				System.out.printf("avi is %d", age);
+			else {
+				if (name.e)))
+				
+			}
+				
+			}
+			
+			
+		}
+				
+	
+	}
+
+}

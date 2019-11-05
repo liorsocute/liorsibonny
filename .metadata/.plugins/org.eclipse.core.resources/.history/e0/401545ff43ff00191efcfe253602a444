@@ -1,0 +1,23 @@
+package homework;
+import	java.util.Scanner;
+
+public class First_time {
+
+	public static void main(String[] args) {
+
+	Scanner input = new Scanner(System.in);
+	
+	System.out.println("please enter your salary");
+	int salary = input.nextInt();
+	
+	if (salary <= 6000 ) {
+		double newsalary = salary * 1.10;	
+		System.out.printf("cool you got raise and your salary now is %d" , newsalary);
+	}
+	else {
+		double litnewsalary = salary * 1.05 ;
+		System.out.printf("fine you got raise and your salary now is %d" , litnewsalary);
+
+	}
+	}
+}

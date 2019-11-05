@@ -1,0 +1,30 @@
+package homework;
+
+public class First_time {
+
+	public static void main(String[] args) {
+
+		int x = (int) (Math.random() * 10);
+		int y = (int) (Math.random() * 10);
+		int checkx = x % 2;
+		int checky = y % 2;
+
+		if (checkx == 0 && checky != 0) {
+			System.out.println("x is even and y is odd ");
+		}
+		else if (checky == 0 && checkx != 0) 
+		{
+			System.out.println("y iz even and x is odd");
+		}
+		
+		else {
+			if (checkx == 0 && checky == 0) {
+				System.out.println("both even");
+			}
+			else {
+				System.out.println("both odd");
+			}
+		}
+	}
+
+}

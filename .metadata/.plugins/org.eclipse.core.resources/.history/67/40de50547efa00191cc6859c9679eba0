@@ -1,0 +1,12 @@
+package runners;
+
+public class Printer {
+
+	public static void main(String[] args) {
+		String Part1 = "There wiil be ";
+		int visitors = 5;
+		String Part2 = "people for dinner";
+		System.out.printf("%s%, %d%, %s%", Part1, visitors, Part2);
+	}
+
+}

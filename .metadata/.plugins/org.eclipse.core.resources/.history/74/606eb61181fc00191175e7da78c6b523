@@ -1,0 +1,13 @@
+package operators_and_flows;
+
+public class Operatores {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int num = 3;
+		int x = num++;
+		System.out.printf("num: %d and x: %d", num, x);
+	}
+
+}

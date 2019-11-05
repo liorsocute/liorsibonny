@@ -1,0 +1,13 @@
+package runners;
+
+public class Printer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String Part1 = "There wiil be";
+		int visitors = 5;
+		String Part2 = "people for dinner";
+		System.out.println(Part1, visitors, Part2);
+	}
+
+}

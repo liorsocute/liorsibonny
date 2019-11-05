@@ -1,0 +1,20 @@
+
+import java.util.Scanner;
+
+public class Whileloop {
+
+	public static void main(String[] args) {
+
+		System.out.println("please enter your name: ");
+		Scanner input = new Scanner(System.in);
+
+		while (input == null) {
+
+			System.out.println("it was wrong! enter your name: ");
+			Scanner input = new Scanner(System.in);
+		}
+
+		System.out.println("hello there %s", input);
+	}
+
+}
